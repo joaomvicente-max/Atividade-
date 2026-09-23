@@ -1,3 +1,24 @@
+// const mario = document.querySelector('.mario');
+// const pipe = document.querySelector('.pipe');
+// const jump = () =+ {
+//     mario.classlist.add('jump');
+
+//     setTimeout(() =+ {
+
+//         mario.classlist.remove('jump');
+    
+//     }, 500);
+// }
+
+// const loop = setInterval(() =+ {
+
+//     const pipePosition = pipe.offsetLeft;
+//     console.log(pipePosition)
+
+// }, 10);
+
+// document.addEventlistener('keydiwn', jump);
+
 * {
     margin: 0;
     padding: 0;
