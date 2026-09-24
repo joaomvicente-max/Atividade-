@@ -1,23 +1,33 @@
-// const mario = document.querySelector('.mario');
-// const pipe = document.querySelector('.pipe');
-// const jump = () =+ {
-//     mario.classlist.add('jump');
+const mario = document.querySelector('.mario');
+const pipe = document.querySelector('.pipe');
+const jump = () =+ {
+    mario.classlist.add('jump');
 
-//     setTimeout(() =+ {
+    setTimeout(() =+ {
 
-//         mario.classlist.remove('jump');
+        mario.classlist.remove('jump');
     
-//     }, 500);
-// }
+    }, 500);
+}
 
-// const loop = setInterval(() =+ {
+const loop = setInterval(() =+ {
 
-//     const pipePosition = pipe.offsetLeft;
-//     console.log(pipePosition)
+    const pipePosition = pipe.offsetLeft;
+    const marioPosition = window.getComputedstyle(mario).bottom.replace('px','');
 
-// }, 10);
+    console.log(marioPosition);
 
-// document.addEventlistener('keydiwn', jump);
+    if (pipePosition <= 120 && mario Position <80) {
+
+        pipe.style.animation = 'none';
+        pipe.style.left = '${pipePosition}px';
+
+    }
+
+
+}, 10);
+
+document.addEventlistener('keydown', jump);
 
 * {
     margin: 0;
